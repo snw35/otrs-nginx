@@ -1,4 +1,4 @@
-FROM nginx:1.13.8-alpine
+FROM nginx:1.13.9-alpine
 
 RUN adduser -u 5000 -S otrs \
     && addgroup -g 5000 -S otrs
